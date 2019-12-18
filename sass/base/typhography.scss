@@ -1,0 +1,32 @@
+.heading-primary{
+	
+	text-transform: uppercase;
+	color: white;
+	
+	&--main{
+	
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 35px;
+	animation-name: moveinright;
+	animation-duration: 3s;
+	
+}
+
+	&--sub{
+	
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 17px;
+	animation-name: moveinleft;
+	animation-duration: 3s;
+	
+	
+}
+	
+	
+	
+}
+

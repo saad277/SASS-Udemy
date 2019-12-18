@@ -1,0 +1,49 @@
+.header {
+	
+	
+	height: 95vh;
+	
+	background-size: cover;
+	
+	background-image: linear-gradient(to right bottom,rgba($color-primary-light,0.8),rgba($color-primary-dark,0.8)),url("video-games-car-vehicle-Dodge-Dodge-Challenger-sports-cr-259461-wallhere.com.jpg");
+	
+	clip-path: polygon(0 0 ,100% 0,100% 75vh,0 100%); 
+	
+	&__logo-box  {
+	
+	position: absolute;
+	top:40px;
+	left:40px;
+	
+}
+
+	&__logo {
+	
+	height: 85px;
+	
+	
+}
+
+  &__logo:hover{
+	
+	
+	animation-name: rot;
+	animation-duration: 3s;
+	
+}
+	
+	&__text-box{
+	top: 25%;
+	left: 298px;
+	position: absolute;
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+}

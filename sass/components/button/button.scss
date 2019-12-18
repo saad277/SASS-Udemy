@@ -1,0 +1,44 @@
+.btn {
+
+&:link, &:visited {
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	display: inline-block;
+	height: 50px;
+	
+	border-radius: 20px;
+	padding-top: 15px;
+	padding-left: 10px;
+	
+	padding-right: 10px;
+	
+	margin: 20px;
+	left: 120px;
+	position: absolute; }
+	
+	
+	&--white{
+	
+	background-color:white;
+	color: black;
+	
+	
+}
+	
+&:active{
+	transform: translateY(-1px);
+	
+}
+
+&:hover{
+	
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px seagreen;
+	
+	
+}	
+	
+	
+}

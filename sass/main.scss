@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";	
+
+@import "base/animations";
+@import "base/base";
+@import "base/typhography";
+@import "base/utilities";
+
+@import "pages/home";
+
+@import"components/button/button";
+
+@import "layouts/header/header";
+
+
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}
+   
+
+
+
+
+
+
+body{
+	
+	
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: white;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
